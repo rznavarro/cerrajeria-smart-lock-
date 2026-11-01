@@ -18,9 +18,20 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
           {/* Col 1: Brand & Bio */}
           <div className="md:col-span-1 space-y-4">
-            <h3 className="font-heading text-xl font-bold text-white tracking-tight">
-              Cerrajería Smart Lock
-            </h3>
+            <div className="flex items-center gap-2.5">
+              <div className="bg-white p-1 rounded-lg shrink-0 flex items-center justify-center">
+                <img
+                  src="/logo/logo.png"
+                  alt="Logo Cerrajería Smart Lock"
+                  className="h-8 w-auto object-contain"
+                  width={32}
+                  height={32}
+                />
+              </div>
+              <h3 className="font-heading text-xl font-bold text-white tracking-tight">
+                Cerrajería Smart Lock
+              </h3>
+            </div>
             <p className="text-sm text-[#F6F7F5]/70 leading-relaxed">
               Venta, instalación, programación y reparación de cerraduras inteligentes para casa,
               rentas vacacionales y empresas. Llaves automotrices y cerrajería residencial.

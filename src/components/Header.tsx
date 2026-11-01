@@ -38,13 +38,20 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, onNavigate }) => {
     <header className="sticky top-0 z-40 bg-[#F6F7F5]/95 backdrop-blur-md border-b border-[#12161B]/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-8 h-18">
-          {/* Zone 1: Brand Wordmark (Single element) */}
+          {/* Zone 1: Brand Wordmark */}
           <a
             href="/"
             onClick={(e) => handleNavClick(e, '/')}
-            className="flex items-center gap-2 text-lg sm:text-xl font-bold tracking-tight text-[#12161B] whitespace-nowrap shrink-0 group focus-visible:ring-2 focus-visible:ring-[#1E9E57] rounded-md"
+            className="flex items-center gap-2.5 text-lg sm:text-xl font-bold tracking-tight text-[#12161B] whitespace-nowrap shrink-0 group focus-visible:ring-2 focus-visible:ring-[#1E9E57] rounded-md"
             aria-label="Cerrajería Smart Lock - Inicio"
           >
+            <img
+              src="/logo/logo.png"
+              alt="Logo Cerrajería Smart Lock"
+              className="h-9 sm:h-10 w-auto object-contain shrink-0"
+              width={40}
+              height={40}
+            />
             <span className="font-heading">Cerrajería Smart Lock</span>
           </a>
 
