@@ -79,7 +79,7 @@ export const Automotive: React.FC<AutomotiveProps> = ({ onNavigate }) => {
         <div className="lg:col-span-5">
           <div className="rounded-2xl overflow-hidden border border-[#12161B]/10 shadow-lg bg-white">
             <img
-              src="/src/assets/images/car_key_service_1793498230210.jpg"
+              src="/images/car_key_service.jpg"
               alt="Copia y programación de llaves automotrices con chip"
               className="w-full h-auto aspect-4/3 object-cover"
             />

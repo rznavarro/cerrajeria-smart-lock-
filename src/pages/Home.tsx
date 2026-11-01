@@ -114,7 +114,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden shadow-lg border border-[#12161B]/10 bg-white">
                 <img
-                  src="/src/assets/images/smart_lock_sls120_1793498227985.jpg"
+                  src="/images/smart_lock_sls120.jpg"
                   alt="Cerradura inteligente de alta seguridad con reconocimiento facial y pantalla digital"
                   className="w-full h-auto object-cover aspect-4/3"
                 />
@@ -543,7 +543,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
             <div className="lg:col-span-5">
               <div className="rounded-xl overflow-hidden border border-[#12161B]/10 aspect-4/3 bg-black/5">
                 <img
-                  src="/src/assets/images/car_key_service_1793498230210.jpg"
+                  src="/images/car_key_service.jpg"
                   alt="Herramientas profesionales y llaves automotrices con chip"
                   className="w-full h-full object-cover"
                 />

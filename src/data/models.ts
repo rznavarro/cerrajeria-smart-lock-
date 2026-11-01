@@ -7,7 +7,7 @@ export const SMART_LOCK_MODELS: SmartLockModel[] = [
     code: 'SLS120',
     displayName: 'Mod. SLS120',
     verified: true,
-    image: '/src/assets/images/smart_lock_sls120_1793498227985.jpg',
+    image: '/images/smart_lock_sls120.jpg',
     shortDescription:
       'Cerradura inteligente de alta gama con reconocimiento facial 3D, videollamada al timbre, pantalla interior IPS 4" y cierre automático.',
     openingModes: ['rostro', 'huella', 'codigo', 'tarjeta', 'llave', 'app'],
@@ -45,7 +45,7 @@ export const SMART_LOCK_MODELS: SmartLockModel[] = [
     code: 'SLV8',
     displayName: 'Mod. SLV8',
     verified: true,
-    image: '/src/assets/images/smart_lock_sls120_1793498227985.jpg',
+    image: '/images/smart_lock_sls120.jpg',
     shortDescription:
       'Cerradura con reconocimiento facial 3D, videollamada al timbre, pantalla IPS interior y mecanismo de acero AISI 304.',
     openingModes: ['rostro', 'huella', 'codigo', 'tarjeta', 'llave', 'app'],
@@ -83,7 +83,7 @@ export const SMART_LOCK_MODELS: SmartLockModel[] = [
     code: 'SLC22',
     displayName: 'Mod. SLC22',
     verified: true,
-    image: '/src/assets/images/smart_lock_sls120_1793498227985.jpg',
+    image: '/images/smart_lock_sls120.jpg',
     shortDescription:
       'Cerradura inteligente con sensor facial 3D, videoportero integrado, pantalla interior IPS 4" y protección climática IP68.',
     openingModes: ['rostro', 'huella', 'codigo', 'tarjeta', 'llave', 'app'],
@@ -121,7 +121,7 @@ export const SMART_LOCK_MODELS: SmartLockModel[] = [
     code: 'SLK8',
     displayName: 'Mod. SLK8',
     verified: true,
-    image: '/src/assets/images/smart_lock_slk8_1793498228902.jpg',
+    image: '/images/smart_lock_slk8.jpg',
     shortDescription:
       'Ideal para rentas vacacionales y casas. Administrada con la app TTLock para emitir códigos temporales, cíclicos y de un solo uso.',
     openingModes: ['huella', 'codigo', 'tarjeta', 'llave', 'app'],
@@ -159,7 +159,7 @@ export const SMART_LOCK_MODELS: SmartLockModel[] = [
     code: 'Q5',
     displayName: 'Mod. Q5',
     verified: true,
-    image: '/src/assets/images/smart_lock_q5_1793498230299.jpg',
+    image: '/images/smart_lock_q5.jpg',
     shortDescription:
       'Cerradura para rentas vacacionales y residencias con app TTLock y conectividad Wi-Fi integrada 2.4 GHz.',
     openingModes: ['huella', 'codigo', 'tarjeta', 'llave', 'app'],
@@ -194,7 +194,7 @@ export const SMART_LOCK_MODELS: SmartLockModel[] = [
     code: 'S313',
     displayName: 'Mod. 313',
     verified: true,
-    image: '/src/assets/images/smart_lock_slk8_1793498228902.jpg',
+    image: '/images/smart_lock_slk8.jpg',
     shortDescription:
       'Cerradura biométrica en color negro con 4 modos de apertura, cierre automático y Bluetooth.',
     openingModes: ['huella', 'codigo', 'llave', 'app'],
