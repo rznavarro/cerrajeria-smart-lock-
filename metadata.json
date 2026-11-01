@@ -1,0 +1,6 @@
+{
+  "name": "Cerrajería Smart Lock",
+  "description": "Cerraduras inteligentes instaladas, programadas y con garantía por escrito. Llaves automotrices, cerrajería residencial y servicio técnico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
